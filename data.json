@@ -1,0 +1,26 @@
+{
+    "requests": [
+        {
+            "title": "deployment",
+            "url": "http://localhost:8000",
+            "verb": "POST",
+            "content_type": "application/json",
+            "data": {
+                "hash": "92b66cc098ef780fcde9397423780fca00b89293",
+                "application": "app2",
+                "environment": "staging"
+            }
+        },
+        {
+            "title": "deployment2",
+            "url": "http://localhost:8000",
+            "verb": "POST",
+            "content_type": "application/json",
+            "data": {
+                "hash": "92b66cc098ef780fcde9397423780fca00b89293",
+                "application": "app1",
+                "environment": "production"
+            }
+        }
+    ]
+}
